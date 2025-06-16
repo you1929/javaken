@@ -4,40 +4,71 @@ public class Qes1_13 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		byte a;
-		a = 10;
+		byte byteg;
 		
-		short b;
-		b = 100;
+		short shortg;
 		
-		int c;
-		c = 1000;
+		int intg;
 		
-		long d;
-		d = 10000;
+		long longg;
 		
-		float e;
-		e = 9.5f;
+		float floatg;
 		
-		double f;
-		f = 10.5;
+		double doubleg;
 		
-		char g = 'a';
+		char charg;
 		
-		String h = "ハロー";
+		String stringg;
 		
-		boolean i = true;
+		boolean booleang;
 		
-		System.out.println(a+b+c+d+e+f);
-		System.out.println(a+a);
-		System.out.println(g+h+i);
-		System.out.println(a*b*c*d);
-		System.out.println(f/b);
-		System.out.println(a-b);
+		byteg = 0;
+		
+		shortg = 0;
+		
+		intg = 0;
+		
+		longg = 0L;
+		
+		floatg = 0.0f;
+		
+		doubleg = 0.0d;
+		
+		charg = '\u0000';
+		
+		stringg = null;
+		
+		booleang = false;
+		
+		
+		byteg = 10;
+		
+		shortg = 100;
+		
+		intg = 1000;
+		
+		longg = 10000;
+		
+		floatg = 9.5f;
+		
+		doubleg = 10.5;
+		
+		charg = 'a';
+		
+		stringg = "ハロー";
+		
+		booleang = true;
+		
+		System.out.println(byteg + shortg + intg + longg + floatg + doubleg);
+		System.out.println(byteg + byteg);
+		System.out.println(charg + stringg + booleang);
+		System.out.println(byteg * shortg * intg * longg);
+		System.out.println(doubleg / shortg);
+		System.out.println(byteg - shortg);
 		
 		int num=20;
 		int num1=23;
-		System.out.println("ハローJAVA"+(num+num1));
+		System.out.println("ハローJAVA" + (num + num1));
 		
 		String name = "山田太郎";
 		int age = 18;
