@@ -2,22 +2,18 @@ package curriculum_B;
 
 public class Qes5 {
 	public static void main(String[] args) {
-		int maxI = 9;
-		int maxJ = 20;
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; j <= 20; j++) {
+				System.out.printf("%03d * %03d = %03d", i, j, i * j);
 
-		int keisan = String.format("%02d * %02d = %02d", maxJ, maxI, maxI * maxJ).length();
-
-		for (int i = 1; i <= maxI; i++) {
-			for (int j = 1; j <= maxJ; j++) {
-				System.out.printf("%02d * %02d = %02d", j, i, i * j);
-
-				if (j < maxJ) {
+				if (j < 21) {
 					System.out.print(" || ");
 				}
 			}
 			System.out.println();
+
 			if (i < 9) {
-				for (int k = 0; k < 165; k++) {
+				for (int bou = 0; bou < 200; bou++) {
 					System.out.print("―");
 				}
 				System.out.println();
