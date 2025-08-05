@@ -1,11 +1,11 @@
 package logic29;
 
-public class logic {
+public class Logic {
 	private String name;
 	private String capital;
 	private double area;
 
-	public logic(String name, String capital, double area) {
+	public Logic(String name, String capital, double area) {
 		this.name = name;
 		this.capital = capital;
 		this.area = area;
